@@ -20,8 +20,6 @@ let edad = "";
         alert (` No ingreso una instruccion coherente`)
         console.log ("No ingreso una instruccion coherente")
         break
-    
-        
       
     }
     
@@ -33,7 +31,7 @@ let edad = "";
   
  
   } 
-   else if ( numero %2 === 0 ){
+   else if ( numero %2 === 0 || numero === '' ){
     alert (`El numero ${i} es divisible por 2`);
     console.log ("Es divisible por 2");
     break
